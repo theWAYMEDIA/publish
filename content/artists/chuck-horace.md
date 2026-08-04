@@ -1,7 +1,8 @@
 ---
 title: "Chuck Horace"
 tagline: "He'd never call it wisdom. He'd just call it Tuesday."
-genre: "Country / Norteño-Country Fusion — border ballads with the soul of a Texas troubadour"
+genre: "Country / Norteño-Country Fusion"
+image: "/images/artists/chuck-horace-profile-photo.jpg"
 platforms:
   - name: "Spotify"
     url: "https://open.spotify.com/artist/754b7xaAk6qjKUkDjEEyre"
@@ -9,12 +10,30 @@ platforms:
     url: "https://music.apple.com/us/artist/chuck-horace/1867918418"
 ---
 
-Chuck Horace is a storyteller whose Norteño-Country fusion sound carries the weight of a man who has lived in two very different worlds — years split between a Manhattan penthouse with a great view and a starving soul, and a ranch on the Mexican border with a better view and a soul that finally got fed. His songs speak to anyone who's been knocked down, gotten back up, and eventually learned something worth singing about along the way.
+## Who Is Chuck Horace?
 
-He learned the hard way that authenticity beats image every time — that life knocks you down, you get up wiser, and eventually you laugh because half the time you were the one tying your own shoelaces together. Twenty-two years of Saturday mornings spent with an electrician named Dan taught him that wisdom isn't handed down in lectures; it's shown, quietly, by people who just keep showing up. A fisherman he once met on a beach already had what Chuck was still chasing.
+Chuck Horace is a storyteller whose Norteño-Country sound carries the weight of two worlds lived honestly. Years between a Manhattan penthouse — view great, soul slowly starving — and a ranch on the Mexican border, where the view got better and the soul finally got fed.
 
-He weaves his Wayist worldview through songs about wisdom, healing, and the soul's journey, learning his craft from Guy Clark (every word matters), Townes Van Zandt (the space between notes carries as much weight as the notes themselves), and Los Tigres del Norte (proof that wisdom crosses borders — he learned more Spanish philosophy from them than from any book). His stories stick like burrs on your jeans, chasing something older than fashion: truth, and the long road home. All rights to his music are donated to the Wayism community, keeping these teachings free for fellow stumble-bums.
+He asks the wrong questions. The ones that matter. His songs are for anyone who has been knocked down, gotten back up, and learned something worth singing about along the way. He is the man at the bar who doesn't lecture. He just buys you a beer and lets you figure it out.
 
----
+Guy Clark and Townes Van Zandt built their songs around the same principle — that every word has to earn its place and silence carries as much weight as the verse. Chuck Horace works in that tradition, but brings it across the border: Los Tigres del Norte showed him wisdom travels in any language, and the corrido form taught him that ordinary lives contain extraordinary philosophy. He is both inheritor and translator.
+
+## The Wayist Thread
+
+Wisdom isn't taught — it's shown. Through twenty-two years of Saturday mornings with an electrician named Dan, who demonstrates more in silence than any book manages in chapters. Through a fisherman on a beach who already had what Chuck spent years chasing. Through the slow realization that authenticity beats image, and showing up matters more than saying the right thing.
+
+The Wayist worldview running through his songs isn't announced. It's in the details — the burrs on your jeans, the long road back, the thing you finally stop fighting.
+
+## A Lyric That Lives It
 
 *"I'm a Wall Street guy turned philosopher fool / He a businessman who knows to use a tool / Shows more in silence than my books could say."*
+
+## Press Play If
+
+You suspect the real curriculum isn't in books, but in the people who just keep showing up — and you are ready to stop tying your own shoelaces together.
+
+## About This Music
+
+Chuck Horace releases under theWAY Media. All rights are donated to the Wayism Community, keeping these teachings freely accessible to all seekers.
+
+Wayism is an ancient philosophical and spiritual path — known across cultures as Mahamarga, elCaminismo, Wegismus, Daofa, and theWAY. Learn more at [wayism.org](https://wayism.org).

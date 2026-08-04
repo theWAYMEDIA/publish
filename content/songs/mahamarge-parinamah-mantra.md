@@ -9,4 +9,64 @@ release_link: "https://too.fm/zk5846x"
 weight: 80
 ---
 
-*Lyrics coming soon.*
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svaḥa
+
+Om...
+
+Om...
+
+Om...
+
+Mahāmārge pariṇāmaḥ svaḥa

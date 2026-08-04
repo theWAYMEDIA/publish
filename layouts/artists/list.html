@@ -7,6 +7,9 @@
     {{ range .Pages.ByTitle }}
     <div class="author-card">
       <div class="author-card-header">
+        {{ if .Params.image }}
+        {{ partial "resized-image.html" (dict "path" .Params.image "class" "author-card-photo" "alt" .Title "width" 128) }}
+        {{ end }}
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
       </div>
       {{ if .Params.tagline }}

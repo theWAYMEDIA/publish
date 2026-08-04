@@ -6,7 +6,7 @@
   <div class="books-grid">
     {{ range .Pages.ByTitle }}
     <div class="book-card">
-      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.vocalist }} <span class="book-card-vocalist">(feat. {{ . }})</span>{{ end }}</h3>
       {{ if .Params.artist }}
       <p class="book-card-author"><a href="{{ printf "artists/%s/" .Params.artist_slug | relURL }}">{{ .Params.artist }}</a></p>
       {{ end }}

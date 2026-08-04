@@ -9,4 +9,46 @@ release_link: "https://too.fm/yvxrorn"
 weight: 68
 ---
 
-*Lyrics coming soon.*
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svāhā
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svāhā
+
+Aum en-tierra, en-alma, en-espíritu
+
+Oruga, crisálida, mariposa
+
+En el Gran Camino, transformación al cielo
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svāhā
+
+Om bhūmau jīvana ātmani
+
+Kīṭa kośa titibhaḥ ca
+
+Mahāmārge pariṇāmaḥ svāhā
+
+Aum en-tierra, en-alma, en-espíritu
+
+Oruga, crisálida, mariposa
+
+En el Gran Camino, transformación al cielo
+
+Om...
+
+Om...
+
+Om...
+
+Mahāmārge pariṇāmaḥ sva

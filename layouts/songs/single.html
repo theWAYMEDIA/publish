@@ -6,7 +6,7 @@
 
       {{ if .Params.artist }}
       <p class="book-detail-author">Performed by
-        <a href="{{ printf "artists/%s/" .Params.artist_slug | relURL }}">{{ .Params.artist }}</a>
+        <a href="{{ printf "artists/%s/" .Params.artist_slug | relURL }}">{{ .Params.artist }}</a>{{ with .Params.vocalist }} — featuring {{ . }}{{ end }}
       </p>
       {{ end }}
 

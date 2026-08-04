@@ -1,7 +1,8 @@
 ---
 title: "Bibimus Cor"
 tagline: "My heart too weak to look in Miria's mirror and see my own soul retreat."
-genre: "Dark Folk / Vocal Nostalgia — 3am music for when you're tired of pretending everything's fine"
+genre: "Dark Folk / Vocal Nostalgia"
+image: "/images/artists/bibimus-cor-profile-photo.jpg"
 platforms:
   - name: "Spotify"
     url: "https://open.spotify.com/artist/0UJeBc7pb9VHY6kUXJq8RG"
@@ -9,14 +10,32 @@ platforms:
     url: "https://music.apple.com/us/artist/bibimus-cor/1873057745"
 ---
 
-Bibimus Cor makes music for the thoughts that surface at 3am and refuse to be talked back down — for the moments when you're tired of being lied to, by institutions, by yourself, by a world that insists everything's fine. These are songs that don't try to comfort. They sit with you in the dark and name what actually hurts: the people we lose to time, the systems that quietly eat souls, the love that somehow survives all of it anyway.
+## Who Is Bibimus Cor?
 
-The sound traces back to a childhood memory — his father, drunk, playing Coltrane at 2am, listening through something rather than to it. That's where he first understood that music isn't only for joy. Sometimes it's for when joy isn't enough, for the truths that can't be spoken sober or faced in daylight. He moves through the material the way he moves through his own life: cantinas and quiet studies, Cambodian markets and unhurried prayers, always watching, always confessing, never looking away.
+Bibimus Cor makes music for 3am thoughts that won't let go. For anyone tired of being lied to — by institutions, by the polished world that says everything's fine, by the mirror they haven't looked into in years.
 
-The Wayist thread running through his work is in the seeing, not the answering. In "Miria's Mirror," a boy's eyes ask silently for kindness toward his mother while he tries to buy his way out of seeing her truth. In an old woman at a market who held his gaze and showed him something the monks have no word for. In a wife who takes his noise and somehow turns it into wings. The teaching isn't in resolution — it's in witnessing, in refusing to look away from your own failure.
+His father sat drunk, playing Coltrane at 2am, just listening through something. That's where he learned music isn't for joy. It's for when joy isn't enough.
 
-Bibimus Cor writes and performs his own material, learning from artists who never lied about the cost of what they were singing: Rodriguez's beauty in forgotten places, Leonard Cohen's proof that you can sing about God and doubt in the same breath, Tom Waits's insistence that broken things still sing — sometimes better than the whole ones. All rights to his music are donated to the Wayist community, so the teaching stays free. So does the dark.
+These songs don't comfort. They sit with you in the dark and name what hurts: the people we lose to time, the systems that eat souls, the love that somehow survives all of it. He moves through cantinas and university studies, through Cambodian markets and quiet prayers — always watching, always confessing, never flinching from what he sees.
 
----
+He moves in the same emotional territory as Rodriguez and Leonard Cohen — but where they observe from a considered distance, Bibimus Cor is still inside the wreckage, confessing in real time. Tom Waits gave broken things a voice and called them beautiful; Bibimus Cor gives them a witness and calls them honest.
 
-*"I left town as the sun bled out... on the dirty street / My heart... too weak... to look in Miria's mirror... / And see my own soul... retreat."*
+## The Wayist Thread
+
+The teaching is in the not-looking-away. In the boy's eyes saying *please be kind to my mom* while he tried to buy his way out of seeing her truth. In the old woman at the market who held his gaze and showed him something the monks have no word for. In the wife who turns his noise into wings.
+
+Wayism asks us to see clearly — to witness ourselves and others without the comfortable edits. Bibimus Cor doesn't preach that. He lives it, song by song.
+
+## A Lyric That Lives It
+
+*"I left town as the sun bled out… on the dirty street / My heart… too weak… to look in Miria's mirror / And see my own soul… retreat."*
+
+## Press Play If
+
+You are ready to meet the part of yourself that already knows — the one tired of pretending, tired of being lied to, and needing someone to sit with in the dark without trying to turn on the light.
+
+## About This Music
+
+Bibimus Cor releases under theWAY Media. All rights are donated to the Wayism Community, keeping these teachings freely accessible to all seekers.
+
+Wayism is an ancient philosophical and spiritual path — known across cultures as Mahamarga, elCaminismo, Wegismus, Daofa, and theWAY. Its music is offered as practice, not performance. Learn more at [wayism.org](https://wayism.org).

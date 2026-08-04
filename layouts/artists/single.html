@@ -2,6 +2,9 @@
 <div class="author-profile">
 
   <div class="author-profile-header">
+    {{ if .Params.image }}
+    {{ partial "resized-image.html" (dict "path" .Params.image "class" "author-profile-photo" "alt" .Title "width" 280) }}
+    {{ end }}
     <div class="author-profile-info">
       {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
       {{ if .Params.tagline }}
@@ -38,7 +41,7 @@
     {{ if $artistSongs }}
     <ul class="author-books-list">
       {{ range $artistSongs }}
-      <li><h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3></li>
+      <li><h3><a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.vocalist }} <span class="book-card-vocalist">(feat. {{ . }})</span>{{ end }}</h3></li>
       {{ end }}
     </ul>
     {{ else }}

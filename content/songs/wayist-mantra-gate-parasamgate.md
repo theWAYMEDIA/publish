@@ -10,4 +10,54 @@ release_link: "https://too.fm/xyreb6p"
 weight: 50
 ---
 
-*Lyrics coming soon.*
+Om... Om... Om...
+
+oṃ te yathāgate gāte parāgate
+
+parasaṅgate bodhini svāhā
+
+Om... Om... Om...
+
+oṃ te yathāgate gāte parāgate
+
+parasaṅgate bodhini svāhā
+
+Om... Om... Om...
+
+Once ignorant, my soul found love
+
+Awareness came like light above
+
+Expanding wide, expanding far
+
+To Spirit's shore beyond the stars
+
+Om... Om... Om...
+
+oṃ te yathāgate gāte parāgate
+
+parasaṅgate bodhini svāhā
+
+Om
+
+Om... Om... Om...
+
+Gone, gone, and gone beyond the gate
+
+Gone completely to that furthest state
+
+Awakening at the final shore
+
+Thanks to You, whom we adore
+
+Om... Om... Om...
+
+Gate gate parāgate
+
+Parasaṅgate bodhini
+
+Te yathāgate svāhā
+
+Om...
+
+From ignorance through love to the furthest shore

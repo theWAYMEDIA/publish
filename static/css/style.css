@@ -397,6 +397,7 @@ footer a:hover { color: var(--link-hover); }
 
 .book-card h3 { margin: 0.5rem 0 0.25rem; font-size: 1.05rem; }
 .book-card-author { color: var(--text-mid); font-size: 0.88rem; font-style: italic; margin-bottom: 0; }
+.book-card-vocalist { color: var(--text-mid); font-size: 0.82rem; font-weight: 400; font-style: italic; }
 
 /* ---- Book Detail Page ---- */
 .book-detail-header {

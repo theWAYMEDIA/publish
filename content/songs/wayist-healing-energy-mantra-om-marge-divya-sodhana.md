@@ -9,4 +9,50 @@ release_link: "https://too.fm/x8jreom"
 weight: 67
 ---
 
-*Lyrics coming soon.*
+Om jyotiḥ prāṇena vahati
+
+Rogaṃ hṛdayena śodhyate
+
+Divya śaktiḥ pravartatā svaḥa
+
+Om jyotiḥ prāṇena vahati
+
+Rogaṃ hṛdayena śodhyate
+
+Divya śaktiḥ pravartatā svaḥa
+
+Aum... light flows through breath
+
+Disease is cleansed through heart
+
+Divine power, may it flow from heaven
+
+Om jyotiḥ prāṇena vahati
+
+Rogaṃ hṛdayena śodhyate
+
+Divya śaktiḥ pravartatā svaḥa
+
+Om jyotiḥ prāṇena vahati
+
+Rogaṃ hṛdayena śodhyate
+
+Divya śaktiḥ pravartatā svaḥa
+
+Om jyotiḥ prāṇena vahati
+
+Rogaṃ hṛdayena śodhyate
+
+Divya śaktiḥ pravartatā svaḥa
+
+Om jyotiḥ prāṇena vahati
+
+Rogaṃ hṛdayena śodhyate
+
+Divya śaktiḥ pravartatā svaḥa
+
+Aum...
+
+Divine healing power
+
+flow to us from heaven

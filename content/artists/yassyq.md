@@ -1,7 +1,8 @@
 ---
 title: "YassyQ"
 tagline: "They say gallantry's gone. They never met my husband."
-genre: "Country / Norteño-Country Fusion — borderlands storytelling with the warmth of a kitchen table"
+genre: "Country / Norteño-Country Fusion"
+image: "/images/artists/yassyq-profile-photo.jpg"
 platforms:
   - name: "Spotify"
     url: "https://open.spotify.com/artist/4I7NujlsgNIfZRp8GC1gPI"
@@ -9,12 +10,32 @@ platforms:
     url: "https://music.apple.com/us/artist/yassyq/1877089531"
 ---
 
-YassyQ's songs celebrate and protest the world exactly as it is: raw, beautiful, and often confusing. The local bike shop owner taught her three chords on a beat-up guitar between fixing chains and told her that's all you need — the rest is having something worth saying. He also taught her that machines have personalities, which is how she ended up with a truck named Betsie, who drinks oil like beer, and a lawnmower named Louise, who putters and cusses. She talks to them. That's the Wayist life, she'll tell you — seeing consciousness in everything.
+## Who Is YassyQ?
 
-She's stumbled through big questions from Silvassa to Shanghai, turning her own missteps into music with no fake perfection and no easy answers offered in their place — just one soul stumbling forward, inviting you to walk, and sometimes trip, right alongside her. What she's learned along the way is that the people living the realest lives aren't the ones polishing their image. They're the ones naming their lawnmowers and drinking beer under stars they don't feel they owe anyone for.
+YassyQ is the matriarch-philosopher who already knows the answers and is just delighted to watch everyone else figure it out.
 
-Udbhu-kanti, for her, isn't a concept — it's the coffee cup with the chipped edge that she reaches for first, the lawnmower she fixes instead of replaces because she's named her and now they're in relationship, the gallantry she finds in damaged sinuses and penny-pinching love. She learned to tell the truth this way from women who knew how: Emmylou Harris taught her that broken voices carry more weight, Lhasa de Sela showed her you can sing in any language when the heart is real, and Lucinda Williams proved that messy and honest beats perfect every time. All rights to her music are donated to the Wayist community. Teachings stay free.
+She named her lawnmower Louise. Her truck Betsie drinks oil like beer. Her husband's thirty years of construction dust have become a love map. She is not stumbling — she is planted. The one the stumble-ers eventually find when they're tired of running.
 
----
+A local bike shop owner taught her three chords between fixing chains and said: *That's all you need — the rest is having something worth saying.* He also taught her machines have personalities. Thirty years to fully understand both lessons.
+
+Emmylou Harris showed that a broken voice carries more truth than a polished one — that the crack in the note is where meaning gets in. Lhasa de Sela proved you can sing in any language when the heart is real enough, that the voice itself becomes the translation. Lucinda Williams demonstrated that messy and honest will outlast perfect and careful every time. YassyQ works from all three of those convictions — but where they documented the wound, she has already made peace with the scar. She didn't arrive at wisdom by having an easy life. She arrived by naming her lawnmower and paying attention to what stayed.
+
+## The Wayist Thread
+
+Udbhu-kanti — the Wayist principle of right relationship with material things — is not a concept in YassyQ's world. It's her coffee cup with the chipped edge, the one she reaches for first. It's the lawnmower she repairs rather than replaces, because she's named her and now they're in relationship. It's seeing gallantry in damaged sinuses and penny-pinching love. Seeing consciousness in everything, even the things with blades and engines.
+
+That is the Wayist life: not an ideology worn on a bumper sticker, but a way of being with what you actually have.
+
+## A Lyric That Lives It
 
 *"His skin shows every summer he worked in the sun / Hands move slower now from all he's done / But those hands tenderly held me through every storm."*
+
+## Press Play If
+
+You suspect the real riches aren't in the shiny things, but in the names you've given the things that stay — and you are ready to stop performing and start being.
+
+## About This Music
+
+YassyQ releases under theWAY Media. All rights are donated to the Wayism Community, keeping these teachings freely accessible to all seekers.
+
+Wayism is an ancient philosophical and spiritual path — known across cultures as Mahamarga, elCaminismo, Wegismus, Daofa, and theWAY. Learn more at [wayism.org](https://wayism.org).
