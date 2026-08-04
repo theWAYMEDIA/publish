@@ -3,7 +3,7 @@
 
   <div class="author-profile-header">
     {{ if .Params.image }}
-    <img class="author-profile-photo" src="{{ .Params.image | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}">
+    {{ partial "resized-image.html" (dict "path" .Params.image "class" "author-profile-photo" "alt" .Title "width" 280) }}
     {{ end }}
     <div class="author-profile-info">
       {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}

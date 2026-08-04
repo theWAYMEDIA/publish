@@ -1,0 +1,14 @@
+<!--
+  Renders an <img> from an assets/images/... path, resized to a sensible
+  web size regardless of how large the source file is. Falls back to
+  rendering nothing if the referenced asset doesn't exist.
+
+  Params: path (front-matter value, e.g. "/images/books/foo.jpg"),
+          class, alt, width (target pixel width), loading (optional)
+-->
+{{ $path := .path | strings.TrimPrefix "/" }}
+{{ $img := resources.Get $path }}
+{{ if $img }}
+  {{ $resized := $img.Resize (printf "%dx q82" .width) }}
+<img class="{{ .class }}" src="{{ $resized.RelPermalink }}" width="{{ $resized.Width }}" height="{{ $resized.Height }}" alt="{{ .alt }}"{{ with .loading }} loading="{{ . }}"{{ end }}>
+{{ end }}
