@@ -51,9 +51,6 @@ menu:
     - name: "About"
       url: "/about/"
       weight: 40
-    - name: "Contact"
-      url: "/contact/"
-      weight: 50
 
 taxonomies:
   category: 'categories'
