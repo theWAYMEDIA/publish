@@ -10,8 +10,6 @@ isbn_ebook: "978-1-998478-29-3"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/theWAY-Know-Your-Path-wholesomeness/dp/1998478262/"
-  - name: "Wayism"
-    url: "https://wayism.net/salvar-daosenghlu/"
 weight: 0
 ---
 

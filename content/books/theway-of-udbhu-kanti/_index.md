@@ -11,8 +11,6 @@ isbn_ebook: "978-1-998478-26-2"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/theWAY-Udbhu-Kanti-Discovering-Perfectly-Imperfect/dp/1998478254/"
-  - name: "Wayism"
-    url: "https://wayism.net/jean-prieur-du-plessis/"
 weight: 0
 ---
 

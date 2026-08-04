@@ -8,8 +8,6 @@ cover: "/images/books/the-story-of-lokesvara.jpg"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Story-Lokesvara-Saviour-World/dp/0987801562/"
-  - name: "Wayism"
-    url: "https://wayism.net/jean-prieur-du-plessis/"
 weight: 0
 ---
 

@@ -11,8 +11,6 @@ isbn_ebook: "978-1-998478-60-6"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Mystic-Mother-theWAY-Curated-collection-ebook/dp/B0DSBK87MZ/"
-  - name: "Wayism"
-    url: "https://wayism.net/kaori-mizuki/"
 weight: 0
 ---
 

@@ -10,8 +10,6 @@ isbn_ebook: "978-1-998478-01-9"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Authentia-Ancient-Wayist-Wisdom-Modern/dp/1998478300/"
-  - name: "Wayism"
-    url: "https://wayism.net/salvar-daosenghlu/"
 weight: 0
 ---
 

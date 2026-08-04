@@ -8,8 +8,6 @@ cover: "/images/books/the-eastern-bible.jpg"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Eastern-Bible-2012-Version/dp/098780152X/"
-  - name: "Wayism"
-    url: "https://wayism.net/jean-prieur-du-plessis/"
 weight: 0
 ---
 

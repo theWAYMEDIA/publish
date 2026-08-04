@@ -9,8 +9,6 @@ isbn_paperback: "978-1-998478-78-1"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Primary-Teaching-theWAY-Existence-Spiritual/dp/1998478793/"
-  - name: "Wayism"
-    url: "https://wayism.net/salvar-daosenghlu/"
 weight: 0
 ---
 

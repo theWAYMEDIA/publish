@@ -9,8 +9,6 @@ cover: "/images/books/ridley-the-raindrop-who-didnt-want-to-get-wet.jpg"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Children-Rainbow-Ridley-Raindrop-Didnt/dp/1998478076/"
-  - name: "Wayism"
-    url: "https://wayism.net/high-mountain-story-uncle/"
 weight: 0
 ---
 

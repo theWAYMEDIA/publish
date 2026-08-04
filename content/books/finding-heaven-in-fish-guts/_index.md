@@ -9,8 +9,6 @@ isbn_ebook: "978-1-998478-33-0"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Finding-Heaven-Fish-Guts-Celebrating/dp/1998478319/"
-  - name: "Wayism"
-    url: "https://wayism.net/kaori-mizuki/"
 weight: 0
 ---
 

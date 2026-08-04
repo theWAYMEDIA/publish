@@ -9,8 +9,6 @@ cover: "/images/books/high-mountain-story-uncle-the-biography.jpg"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/High-Mountain-Story-Uncle-Biography/dp/1738182894/"
-  - name: "Wayism"
-    url: "https://wayism.net/jean-prieur-du-plessis/"
 weight: 0
 ---
 

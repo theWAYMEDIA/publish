@@ -10,8 +10,6 @@ isbn_ebook: "978-1-7381828-0-0"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Child-Enki-you-are-Enlil/dp/0987801597/"
-  - name: "Wayism"
-    url: "https://wayism.net/salvar-daosenghlu/"
 weight: 0
 ---
 

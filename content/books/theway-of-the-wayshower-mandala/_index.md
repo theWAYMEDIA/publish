@@ -11,8 +11,6 @@ isbn_ebook: "978-1-998478-23-1"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/theWAY-WayShower-Mandala-Understanding-Margadarzaka/dp/1998478246/"
-  - name: "Wayism"
-    url: "https://wayism.net/jean-prieur-du-plessis/"
 weight: 0
 ---
 

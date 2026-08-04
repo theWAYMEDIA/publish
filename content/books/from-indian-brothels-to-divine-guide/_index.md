@@ -9,8 +9,6 @@ cover: "/images/books/from-indian-brothels-to-divine-guide.jpg"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/Indian-Brothels-Divine-Guide-Jerusalem-ebook/dp/B0DVR3M6SW"
-  - name: "Wayism"
-    url: "https://wayism.net/adele-du-plessis/"
 weight: 0
 ---
 

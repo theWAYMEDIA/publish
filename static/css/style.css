@@ -385,7 +385,9 @@ footer a:hover { color: var(--link-hover); }
 }
 
 .book-card-cover, .book-detail-cover {
+  display: block;
   max-width: 100%;
+  height: auto;
   border: 1px solid var(--border);
   border-radius: 3px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.28), 3px 3px 0 rgba(27, 40, 56, 0.12);
@@ -399,6 +401,7 @@ footer a:hover { color: var(--link-hover); }
 /* ---- Book Detail Page ---- */
 .book-detail-header {
   display: flex;
+  align-items: flex-start;
   gap: 2rem;
   flex-wrap: wrap;
   margin-bottom: 2rem;
@@ -509,5 +512,6 @@ footer a:hover { color: var(--link-hover); }
 
 @media (max-width: 768px) {
   .book-detail-header { flex-direction: column; }
+  .book-detail-cover-wrap { flex-basis: auto; max-width: 220px; }
   .book-card { padding: 1rem; }
 }

@@ -11,8 +11,6 @@ isbn_ebook: "978-1-7381828-2-4"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/theWAY-Divine-Taras-Connect-Guide/dp/1738182835/"
-  - name: "Wayism"
-    url: "https://wayism.net/salvar-daosenghlu/"
 weight: 0
 ---
 

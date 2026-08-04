@@ -11,8 +11,6 @@ isbn_ebook: "978-1-998478-09-5"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/theWAY-Divine-Energies-Practices-Transformation/dp/1998478084"
-  - name: "Wayism"
-    url: "https://wayism.net/jean-prieur-du-plessis/"
 weight: 0
 ---
 
