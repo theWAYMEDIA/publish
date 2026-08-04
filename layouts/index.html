@@ -1,7 +1,15 @@
 {{ define "main" }}
-<section>
-    {{ .Content }}
+<section class="hero">
+    <h1 class="hero-title">{{ .Title }}</h1>
+    <div class="hero-lead">{{ .Content }}</div>
+    <div class="hero-actions">
+        <a href="{{ "books/" | relURL }}" class="cta-button">Browse the Catalog</a>
+        <a href="{{ "authors/" | relURL }}" class="cta-button cta-button-outline">Meet the Authors</a>
+    </div>
+</section>
 
+<section class="featured-books">
+    <h2 class="section-label"><span>Featured Titles</span></h2>
     <div class="books-grid">
     {{ $bookSection := .Site.GetPage "/books" }}
     {{ range first 6 (where $bookSection.Pages "Kind" "section") }}
@@ -14,6 +22,5 @@
         </div>
     {{ end }}
     </div>
-    <p><a href="{{ "books/" | relURL }}" class="cta-button">Browse the full catalog →</a></p>
 </section>
 {{ end }}

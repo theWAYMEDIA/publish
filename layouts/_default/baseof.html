@@ -14,6 +14,10 @@
 </head>
 <body>
     <header>
+        <div class="masthead">
+            <a href="{{ "/" | relURL }}" class="wordmark">the<span class="wm-accent">WAY</span> Media</a>
+            <p class="masthead-tagline">Publishers of Wayist Literature</p>
+        </div>
 <nav>
     {{ range .Site.Menus.main }}
         <a href="{{ .URL | relURL }}">{{ .Name }}</a>
