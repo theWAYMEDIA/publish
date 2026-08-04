@@ -1,0 +1,37 @@
+{{ define "main" }}
+<article class="book-detail">
+  <div class="book-detail-header">
+    <div class="book-detail-meta">
+      <h1>{{ .Title }}</h1>
+
+      {{ if .Params.artist }}
+      <p class="book-detail-author">Performed by
+        <a href="{{ printf "artists/%s/" .Params.artist_slug | relURL }}">{{ .Params.artist }}</a>
+      </p>
+      {{ end }}
+
+      {{ if .Params.lyricist }}
+      <p class="book-detail-author">Lyrics by
+        {{ if eq .Params.lyricist_type "author" }}
+        <a href="{{ printf "authors/%s/" .Params.lyricist_slug | relURL }}">{{ .Params.lyricist }}</a>
+        {{ else if eq .Params.lyricist_type "artist" }}
+        <a href="{{ printf "artists/%s/" .Params.lyricist_slug | relURL }}">{{ .Params.lyricist }}</a>
+        {{ else }}
+        {{ .Params.lyricist }}
+        {{ end }}
+      </p>
+      {{ end }}
+
+      {{ if .Params.release_link }}
+      <div class="retailer-buttons">
+        <a class="btn-retailer" href="{{ .Params.release_link }}" target="_blank" rel="noopener noreferrer">Listen — Distributor Links</a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div class="author-profile">
+
+  <div class="author-profile-header">
+    <div class="author-profile-info">
+      {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
+      {{ if .Params.tagline }}
+      <p class="author-profile-bio">&ldquo;{{ .Params.tagline }}&rdquo;</p>
+      {{ end }}
+      {{ if .Params.genre }}
+      <p class="author-profile-bio">{{ .Params.genre }}</p>
+      {{ end }}
+    </div>
+  </div>
+
+  {{ if .Content }}
+  <div class="author-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  {{ if .Params.platforms }}
+  <div class="author-section">
+    <div class="retailer-buttons">
+      {{ range .Params.platforms }}
+      <a class="btn-retailer" href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <!-- Songs by this artist -->
+  <div class="author-section">
+    <h2>Songs by {{ .Title }}</h2>
+    {{ $artistSlug := .File.ContentBaseName }}
+    {{ $songSection := .Site.GetPage "/songs" }}
+    {{ $artistSongs := sort (where $songSection.Pages "Params.artist_slug" $artistSlug) "Title" }}
+    {{ if $artistSongs }}
+    <ul class="author-books-list">
+      {{ range $artistSongs }}
+      <li><h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3></li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <p>Songs will appear here as they are released.</p>
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

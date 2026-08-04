@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="books-page">
+  {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
+  {{ .Content }}
+
+  <div class="books-grid">
+    {{ range .Pages.ByTitle }}
+    <div class="book-card">
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      {{ if .Params.artist }}
+      <p class="book-card-author"><a href="{{ printf "artists/%s/" .Params.artist_slug | relURL }}">{{ .Params.artist }}</a></p>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

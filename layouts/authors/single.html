@@ -63,5 +63,23 @@
     {{ end }}
   </div>
 
+  <!-- Songs written by this author, performed by our artists -->
+  {{ $authorSlug := .File.ContentBaseName }}
+  {{ $songSection := .Site.GetPage "/songs" }}
+  {{ $authorSongs := sort (where $songSection.Pages "Params.lyricist_slug" $authorSlug) "Title" }}
+  {{ if $authorSongs }}
+  <div class="author-section">
+    <h2>Songs</h2>
+    <ul class="author-books-list">
+      {{ range $authorSongs }}
+      <li>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        {{ if .Params.artist }}<p class="book-card-author">performed by <a href="{{ printf "artists/%s/" .Params.artist_slug | relURL }}">{{ .Params.artist }}</a></p>{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
 </div>
 {{ end }}
