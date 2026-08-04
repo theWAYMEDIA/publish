@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="hero">
+    {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1 class="hero-title">{{ .Title }}</h1>{{ end }}
+    <div class="hero-lead">{{ .Content }}</div>
+    <div class="hero-actions">
+        <a href="{{ "songs/" | relURL }}" class="cta-button">Browse the Songs</a>
+        <a href="{{ "artists/" | relURL }}" class="cta-button cta-button-outline">Meet the Artists</a>
+    </div>
+</section>
+{{ end }}
