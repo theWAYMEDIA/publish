@@ -1,7 +1,7 @@
 {{ define "main" }}
 <div class="author-profile">
 
-  <header class="author-profile-header">
+  <div class="author-profile-header">
     {{ if .Params.image }}
     <img class="author-profile-photo" src="{{ .Params.image | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}">
     {{ end }}
@@ -11,7 +11,7 @@
       <p class="author-profile-bio">{{ .Params.bio | markdownify }}</p>
       {{ end }}
     </div>
-  </header>
+  </div>
 
   {{ if .Params.specialties }}
   <div class="author-section">
