@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="books-page">
+  {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
+  {{ .Content }}
+
+  <div class="books-grid">
+    {{ range .Pages.ByTitle }}
+    {{ if eq .Kind "section" }}
+    <div class="book-card">
+      {{ if .Params.cover }}
+      <a href="{{ .Permalink }}"><img class="book-card-cover" src="{{ .Params.cover | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}" loading="lazy"></a>
+      {{ end }}
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      {{ if .Params.authors }}<p class="book-card-author">{{ delimit .Params.authors ", " }}</p>{{ end }}
+    </div>
+    {{ end }}
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,23 @@
+{{ define "main" }}
+<div class="authors-page">
+  {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
+  {{ .Content }}
+
+  <div class="authors-grid">
+    {{ range .Pages }}
+    <div class="author-card">
+      <div class="author-card-header">
+        {{ if .Params.image }}
+        <img class="author-card-photo" src="{{ .Params.image | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}">
+        {{ end }}
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      </div>
+      {{ if .Params.bio }}
+      <p class="author-card-bio">{{ .Params.bio | truncate 140 }}</p>
+      {{ end }}
+      <a href="{{ .Permalink }}" class="author-card-link">View profile &amp; books →</a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

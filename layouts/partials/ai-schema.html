@@ -1,0 +1,24 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "theWAY Media",
+  "url": "https://wayism.net",
+  "description": "{{ .Site.Params.description }}"
+}
+</script>
+{{ else if eq .Section "books" }}
+{{ if .IsPage }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Book",
+  "name": {{ .Title | jsonify }},
+  "author": [{{ range $i, $a := .Params.authors }}{{ if $i }},{{ end }}{ "@type": "Person", "name": {{ $a | jsonify }} }{{ end }}],
+  {{ with .Params.isbn_paperback }}"isbn": {{ . | jsonify }},{{ end }}
+  "description": {{ .Summary | plainify | jsonify }}
+}
+</script>
+{{ end }}
+{{ end }}

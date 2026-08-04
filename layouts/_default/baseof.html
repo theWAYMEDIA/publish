@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }} | {{ .Site.Title }}</title>
+    <meta name="description" content="{{ .Params.description | default .Site.Params.description }}">
+    <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+    {{ block "extra_head" . }}{{ end }}
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="Expires" content="0">
+	{{ partial "ai-schema.html" . }}
+</head>
+<body>
+    <header>
+<nav>
+    {{ range .Site.Menus.main }}
+        <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    {{ end }}
+</nav>
+    </header>
+
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+        <p>&copy; 2026 theWAY Media. Publisher of books on Wayism and related teachings.</p>
+        <p><a href="https://wayism.org" target="_blank" rel="noopener noreferrer">wayism.org</a> &nbsp;·&nbsp; <a href="{{ "authors/" | relURL }}">Authors</a> &nbsp;·&nbsp; <a href="{{ "contact/" | relURL }}">Contact</a></p>
+    </footer>
+    {{ block "extra_scripts" . }}{{ end }}
+</body>
+</html>

@@ -1,0 +1,67 @@
+{{ define "main" }}
+<div class="author-profile">
+
+  <header class="author-profile-header">
+    {{ if .Params.image }}
+    <img class="author-profile-photo" src="{{ .Params.image | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}">
+    {{ end }}
+    <div class="author-profile-info">
+      {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
+      {{ if .Params.bio }}
+      <p class="author-profile-bio">{{ .Params.bio | markdownify }}</p>
+      {{ end }}
+    </div>
+  </header>
+
+  {{ if .Params.specialties }}
+  <div class="author-section">
+    <h3>Areas of Focus</h3>
+    <ul>
+      {{ range .Params.specialties }}
+      <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
+  {{ if .Params.training }}
+  <div class="author-section">
+    <h3>Training &amp; Development</h3>
+    <p>{{ .Params.training | markdownify }}</p>
+  </div>
+  {{ end }}
+
+  {{ if .Content }}
+  <div class="author-content">
+    {{ .Content }}
+  </div>
+  {{ end }}
+
+  <!-- Books by this author -->
+  <div class="author-section">
+    <h2>Published Works</h2>
+    {{ $authorName := .Title }}
+    {{ $bookSection := .Site.GetPage "/books" }}
+    {{ $books := where $bookSection.Pages "Kind" "section" }}
+    {{ $authorBooks := slice }}
+    {{ range $books }}
+      {{ if in .Params.authors $authorName }}
+        {{ $authorBooks = $authorBooks | append . }}
+      {{ end }}
+    {{ end }}
+    {{ if $authorBooks }}
+    <ul class="author-books-list">
+      {{ range $authorBooks }}
+      <li>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        {{ if .Params.retailers }}<a href="{{ (index .Params.retailers 0).url }}" target="_blank" rel="noopener noreferrer" class="cta-button">Buy on {{ (index .Params.retailers 0).name }}</a>{{ end }}
+      </li>
+      {{ end }}
+    </ul>
+    {{ else }}
+    <p>Books will appear here as they are published.</p>
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

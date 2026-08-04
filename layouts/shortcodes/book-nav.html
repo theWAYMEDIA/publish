@@ -1,0 +1,11 @@
+<div class="book-navigation">
+  {{ if .Get "prev" }}
+    <a href="{{ .Get "prev" }}" class="nav-prev">← {{ .Get "prev-title" }}</a>
+  {{ end }}
+
+  <a href="{{ .Get "main" }}" class="nav-main">📖 {{ .Get "main-title" }}</a>
+
+  {{ if .Get "next" }}
+    <a href="{{ .Get "next" }}" class="nav-next">{{ .Get "next-title" }} →</a>
+  {{ end }}
+</div>

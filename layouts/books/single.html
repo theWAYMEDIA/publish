@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="book-chapter">
+    {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
+    <div class="post-content">
+        {{ .Content }}
+    </div>
+    {{ partial "smart-book-nav.html" . }}
+</article>
+{{ end }}

@@ -1,0 +1,56 @@
+{{ define "main" }}
+<article class="book-detail">
+  <div class="book-detail-header">
+    {{ if .Params.cover }}
+    <div class="book-detail-cover-wrap">
+      <img class="book-detail-cover" src="{{ .Params.cover | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }} cover">
+    </div>
+    {{ end }}
+    <div class="book-detail-meta">
+      <h1>{{ .Title }}</h1>
+      {{ if .Params.authors }}
+      <p class="book-detail-author">by
+        {{ range $i, $a := .Params.authors }}{{ if $i }}, {{ end }}<a href="{{ printf "authors/%s/" (index $.Params.author_slugs $i) | relURL }}">{{ $a }}</a>{{ end }}
+      </p>
+      {{ end }}
+
+      <div class="book-detail-terms">
+        {{ range .Params.categories }}<a class="category-tag" href="{{ printf "categories/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end }}
+        {{ range .Params.tags }}<a class="tag" href="{{ printf "tags/%s/" (. | urlize) | relURL }}">{{ . }}</a>{{ end }}
+      </div>
+
+      {{ if or .Params.isbn_paperback .Params.isbn_ebook .Params.isbn_audiobook }}
+      <div class="isbn-table">
+        {{ with .Params.isbn_paperback }}<div><strong>Paperback ISBN:</strong> {{ . }}</div>{{ end }}
+        {{ with .Params.isbn_ebook }}<div><strong>eBook ISBN:</strong> {{ . }}</div>{{ end }}
+        {{ with .Params.isbn_audiobook }}<div><strong>Audiobook ISBN:</strong> {{ . }}</div>{{ end }}
+      </div>
+      {{ end }}
+
+      {{ if .Params.retailers }}
+      <div class="retailer-buttons">
+        {{ range .Params.retailers }}
+        <a class="btn-retailer" href="{{ .url }}" target="_blank" rel="noopener noreferrer">Buy on {{ .name }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  {{ $chapters := sort (where .Pages "Kind" "page") "Weight" }}
+  {{ if $chapters }}
+  <div class="book-chapters-list">
+    <h2>Read the Chapters</h2>
+    <ol>
+      {{ range $chapters }}
+      <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ol>
+  </div>
+  {{ end }}
+</article>
+{{ end }}

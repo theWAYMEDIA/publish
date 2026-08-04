@@ -1,0 +1,57 @@
+baseURL: 'https://wayism.net'
+languageCode: 'en-us'
+title: 'theWAY Media'
+
+params:
+  description: "theWAY Media — publisher of books on Wayism, the ancient existential philosophy, and related teachings"
+  schemaType: "Organization"
+  aiCrawlable: true
+
+  # Development settings - disable all caching
+  cache_control: "no-cache, no-store, must-revalidate"
+  pragma: "no-cache"
+  expires: "0"
+
+# Development server settings
+server:
+  headers:
+    - for: "/**"
+      values:
+        Cache-Control: "no-cache, no-store, must-revalidate"
+        Pragma: "no-cache"
+        Expires: "0"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    style: github
+    noClasses: false
+
+outputs:
+  home: ["HTML", "RSS", "JSON"]
+  section: ["HTML", "RSS", "JSON"]
+  page: ["HTML", "JSON"]
+
+menu:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 10
+    - name: "Books"
+      url: "/books/"
+      weight: 20
+    - name: "Authors"
+      url: "/authors/"
+      weight: 30
+    - name: "About"
+      url: "/about/"
+      weight: 40
+    - name: "Contact"
+      url: "/contact/"
+      weight: 50
+
+taxonomies:
+  category: 'categories'
+  tag: 'tags'

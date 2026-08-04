@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section>
+    {{ .Content }}
+
+    <div class="books-grid">
+    {{ $bookSection := .Site.GetPage "/books" }}
+    {{ range first 6 (where $bookSection.Pages "Kind" "section") }}
+        <div class="book-card">
+            {{ if .Params.cover }}
+            <a href="{{ .Permalink }}"><img class="book-card-cover" src="{{ .Params.cover | strings.TrimPrefix "/" | relURL }}" alt="{{ .Title }}"></a>
+            {{ end }}
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+            {{ if .Params.authors }}<p class="book-card-author">{{ delimit .Params.authors ", " }}</p>{{ end }}
+        </div>
+    {{ end }}
+    </div>
+    <p><a href="{{ "books/" | relURL }}" class="cta-button">Browse the full catalog →</a></p>
+</section>
+{{ end }}
