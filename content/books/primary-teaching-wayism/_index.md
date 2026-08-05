@@ -7,8 +7,8 @@ author_slugs: ["salvar-daosenglu"]
 categories: ["Core Teaching"]
 tags: ["Sanskrit", "translation", "reference edition"]
 cover: "/images/books/primary-teaching-wayism.jpg"
-isbn_paperback: "978-1-997681-32-8"
-isbn_ebook: "978-1-997681-33-5"
+isbn_paperback: "978-1-997681-26-7"
+isbn_ebook: "978-1-997681-27-4"
 retailers:
   - name: "Amazon"
     url: "https://www.amazon.com/dp/1997681269"
