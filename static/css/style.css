@@ -412,6 +412,13 @@ footer a:hover { color: var(--link-hover); }
 
 .book-detail-meta { flex: 1; min-width: 260px; }
 
+.book-detail-subtitle {
+  font-size: 1rem;
+  font-style: italic;
+  color: var(--text-mid);
+  margin-bottom: 0.5rem;
+}
+
 .book-detail-author {
   font-size: 1.1rem;
   color: var(--slate);

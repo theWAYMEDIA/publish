@@ -8,6 +8,7 @@
     {{ end }}
     <div class="book-detail-meta">
       <h1>{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="book-detail-subtitle">{{ . }}</p>{{ end }}
       {{ if .Params.authors }}
       <p class="book-detail-author">by
         {{ range $i, $a := .Params.authors }}{{ if $i }}, {{ end }}<a href="{{ printf "authors/%s/" (index $.Params.author_slugs $i) | relURL }}">{{ $a }}</a>{{ end }}
