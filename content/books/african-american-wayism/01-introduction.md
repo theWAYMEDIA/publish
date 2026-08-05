@@ -8,7 +8,7 @@ weight: 1
 ## Returning to Wholeness
 
 "When I discovered our people's ancient ways, it wasn't like learning something new. It was like remembering something I always knew."  *
-—Mabel Thompson, Community Healer
+—Mabel Thomson, Community Healer
 
 Dear Seeker,
 
@@ -164,7 +164,7 @@ For in remembering who we truly are — divine beings on a journey of spiritual 
 
 May this guide serve as a light on your path of remembering, and may that remembering bring you home to yourself. Join us at Wayist.Life.
 
-With deepest respect for your journey,  *Mabel Thompson*
+With deepest respect for your journey,  *Mabel Thomson*
 
  
 

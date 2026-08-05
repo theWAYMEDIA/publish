@@ -19,7 +19,7 @@ weight: 0
 
 ### Rediscover your spiritual birthright beyond religious boundaries
 
-In a world that fragments identity and disconnects us from our deeper wisdom, "African American Wayism" offers Black families a path of integration, healing, and authentic power. Drawing from ancient spiritual principles that predate modern religious divisions, author Mabel Thompson illuminates how Wayist teachings align with traditional African wisdom while providing practical tools for navigating contemporary challenges.
+In a world that fragments identity and disconnects us from our deeper wisdom, "African American Wayism" offers Black families a path of integration, healing, and authentic power. Drawing from ancient spiritual principles that predate modern religious divisions, author Mabel Thomson illuminates how Wayist teachings align with traditional African wisdom while providing practical tools for navigating contemporary challenges.
 
 Unlike conventional religions, Wayism is:
 
