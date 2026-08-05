@@ -35,7 +35,7 @@ jobs:
           extended: true  # Use Hugo Extended version (supports Sass/SCSS)
 
       - name: Build Hugo site
-        run: hugo --minify --baseURL "https://thewaymedia.github.io/publish/"
+        run: hugo --minify
 
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
