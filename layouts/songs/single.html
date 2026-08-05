@@ -1,5 +1,7 @@
 {{ define "main" }}
 <article class="book-detail">
+  <p class="back-nav"><a href="{{ "songs/" | relURL }}">← Back to Songs</a></p>
+
   <div class="book-detail-header">
     <div class="book-detail-meta">
       <h1>{{ .Title }}</h1>
@@ -33,5 +35,7 @@
   <div class="post-content">
     {{ .Content }}
   </div>
+
+  <p class="back-nav"><a href="{{ "songs/" | relURL }}">← Back to Songs</a></p>
 </article>
 {{ end }}
