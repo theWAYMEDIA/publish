@@ -1,5 +1,6 @@
 ---
 title: "MauriceQ"
+image: "/images/artists/mauriceq-profile-photo.jpg"
 tagline: "I was invited to this mess. Not auditioning. I'm already on the guest list."
 genre: "Smooth Jazz / Lounge — aged whiskey and worn leather, with the warmth of a fireplace"
 platforms:
