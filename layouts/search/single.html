@@ -1,0 +1,24 @@
+{{ define "extra_head" }}
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<style>
+    .search-page { max-width: 800px; margin: 0 auto; }
+    .search-page h1 { margin-bottom: 1.5rem; }
+    .pagefind-ui { --pagefind-ui-primary: #1B2838; --pagefind-ui-text: #22201B; --pagefind-ui-background: #FFFDF8; --pagefind-ui-border: #D9CBA3; --pagefind-ui-tag: #A9812E; }
+</style>
+{{ end }}
+
+{{ define "main" }}
+<div class="search-page">
+    <h1>Search</h1>
+    <div id="search"></div>
+</div>
+{{ end }}
+
+{{ define "extra_scripts" }}
+<script src="/pagefind/pagefind-ui.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', function() {
+        new PagefindUI({ element: "#search", showImages: false });
+    });
+</script>
+{{ end }}
