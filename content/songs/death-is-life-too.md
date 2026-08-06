@@ -8,6 +8,7 @@ lyricist_type: "author"
 lyricist_slug: "claudette-sky"
 release_link: "https://too.fm/3p9n8ky"
 weight: 51
+featured: true
 ---
 
 My sister Adele... she wrote this down

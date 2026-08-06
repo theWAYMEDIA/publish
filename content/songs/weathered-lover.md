@@ -8,6 +8,7 @@ lyricist_type: "author"
 lyricist_slug: "high-mountain-story-uncle"
 release_link: "https://too.fm/e02j2av"
 weight: 44
+featured: true
 ---
 
 I hear him in the bathroom; those sounds he makes

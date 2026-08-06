@@ -8,6 +8,7 @@ lyricist_type: "author"
 lyricist_slug: "jean-prieur-du-plessis"
 release_link: "https://too.fm/6mepd9q"
 weight: 0
+featured: true
 ---
 
 I Bought that ranch, sight unseen, I got a deal

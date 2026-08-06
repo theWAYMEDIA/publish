@@ -8,6 +8,7 @@ lyricist_type: "artist"
 lyricist_slug: "bibimus-cor"
 release_link: "https://too.fm/qdqbqx2"
 weight: 30
+featured: true
 ---
 
 A cantina in the south
