@@ -45,9 +45,6 @@ menu:
     - name: "Music"
       url: "/music/"
       weight: 25
-    - name: "Authors"
-      url: "/authors/"
-      weight: 30
     - name: "About"
       url: "/about/"
       weight: 40

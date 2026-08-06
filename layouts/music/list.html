@@ -3,8 +3,19 @@
     {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1 class="hero-title">{{ .Title }}</h1>{{ end }}
     <div class="hero-lead">{{ .Content }}</div>
     <div class="hero-actions">
-        <a href="{{ "songs/" | relURL }}" class="cta-button">Browse the Songs</a>
         <a href="{{ "artists/" | relURL }}" class="cta-button cta-button-outline">Meet the Artists</a>
     </div>
 </section>
+
+<div class="books-grid">
+{{ $songSection := .Site.GetPage "/songs" }}
+{{ range $songSection.Pages.ByTitle }}
+<div class="book-card">
+    <h3><a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.vocalist }} <span class="book-card-vocalist">(feat. {{ . }})</span>{{ end }}</h3>
+    {{ if .Params.artist }}
+    <p class="book-card-author"><a href="{{ printf "artists/%s/" .Params.artist_slug | relURL }}">{{ .Params.artist }}</a></p>
+    {{ end }}
+</div>
+{{ end }}
+</div>
 {{ end }}

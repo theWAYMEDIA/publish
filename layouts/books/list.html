@@ -1,7 +1,12 @@
 {{ define "main" }}
 <div class="books-page">
-  {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1>{{ .Title }}</h1>{{ end }}
-  {{ .Content }}
+  <section class="hero">
+    {{ if not (strings.HasPrefix (strings.TrimSpace .Content) "<h1") }}<h1 class="hero-title">{{ .Title }}</h1>{{ end }}
+    <div class="hero-lead">{{ .Content }}</div>
+    <div class="hero-actions">
+        <a href="{{ "authors/" | relURL }}" class="cta-button cta-button-outline">Meet the Authors</a>
+    </div>
+  </section>
 
   <div class="books-grid">
     {{ range .Pages.ByTitle }}
