@@ -8,6 +8,7 @@ lyricist_type: "author"
 lyricist_slug: "high-mountain-story-uncle"
 release_link: "https://too.fm/8zrn6vb"
 weight: 12
+featured: true
 ---
 
 Listen up now, Island Uncle got something important to tell you

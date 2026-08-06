@@ -5,6 +5,7 @@
     <div class="hero-actions">
         <a href="{{ "books/" | relURL }}" class="cta-button">Browse the Catalog</a>
         <a href="{{ "authors/" | relURL }}" class="cta-button cta-button-outline">Meet the Authors</a>
+        <a href="{{ "songs/" | relURL }}" class="cta-button cta-button-outline">Listen to the Music</a>
     </div>
 </section>
 
@@ -19,6 +20,21 @@
             {{ end }}
             <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
             {{ if .Params.authors }}<p class="book-card-author">{{ delimit .Params.authors ", " }}</p>{{ end }}
+        </div>
+    {{ end }}
+    </div>
+</section>
+
+<section class="featured-songs">
+    <h2 class="section-label"><span>Featured Songs</span></h2>
+    <div class="books-grid">
+    {{ $songSection := .Site.GetPage "/songs" }}
+    {{ range first 8 (where $songSection.Pages "Params.featured" true) }}
+        <div class="book-card">
+            <h3><a href="{{ .Permalink }}">{{ .Title }}</a>{{ with .Params.vocalist }} <span class="book-card-vocalist">(feat. {{ . }})</span>{{ end }}</h3>
+            {{ if .Params.artist }}
+            <p class="book-card-author"><a href="{{ printf "artists/%s/" .Params.artist_slug | relURL }}">{{ .Params.artist }}</a></p>
+            {{ end }}
         </div>
     {{ end }}
     </div>

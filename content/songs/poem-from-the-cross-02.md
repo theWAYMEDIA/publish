@@ -8,6 +8,7 @@ lyricist_type: "author"
 lyricist_slug: "claudette-sky"
 release_link: "https://too.fm/8j7x3yk"
 weight: 2
+featured: true
 ---
 
 Om Om Om

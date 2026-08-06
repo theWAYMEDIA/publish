@@ -8,6 +8,7 @@ lyricist_type: "artist"
 lyricist_slug: "margaux-noire"
 release_link: "https://too.fm/gmj4owx"
 weight: 54
+featured: true
 ---
 
 I was seventeen in the Pigalle rain
