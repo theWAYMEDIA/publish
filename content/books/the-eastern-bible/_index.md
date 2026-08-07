@@ -1,7 +1,7 @@
 ---
 title: "The Eastern Bible"
 layout: "book"
-authors: ["Jean Prieur du Plessis"]
+authors: ["Editor: Jean Prieur du Plessis"]
 author_slugs: ["jean-prieur-du-plessis"]
 categories: ["Core Teaching", "Historical"]
 cover: "/images/books/the-eastern-bible.jpg"
