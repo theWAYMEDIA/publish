@@ -21,3 +21,7 @@ Butterfly Path gently touches on the influences at play in our lives which would
 Butterfly People realize they are not alone in their struggle to metamorphosize beyond the limiting caterpillar worldview; we can all harness the divine energy within to protect, enrich and grow our spirit. Empathy deepens as the reader realizes we are all on a learning journey in this Earth school.
 
 The Wayist philosophy of promoting humility and loving-kindness opens those on this path to understanding the purpose of their life and how it may be embraced more fully. The enlightened spirit is able to appreciate the senses and pleasures often disregarded in other paths.
+
+---
+
+The first book in the *Butterfly Path Spirituality* series — continue with **[They Stole Your Spirit — Book 2](/books/they-stole-your-spirit/)**.
