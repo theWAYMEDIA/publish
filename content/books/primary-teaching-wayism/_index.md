@@ -15,11 +15,11 @@ retailers:
 weight: 0
 ---
 
-You did not pick this book up by accident.
+Ideal for Students and Translators
 
 Most spiritual teaching, sooner or later, tells you that you are already whole — that you need only remember what you always were. *Primary Teaching Wayism* does not. It tells you something harder, and more hopeful: that you are a student, genuinely enrolled in the school of a single human life, and that its difficulties are not random. Karma is not punishment; it is curriculum. And graduation is real — not dissolution into a formless absolute, but a genuine new beginning as a distinct spiritual being. The butterfly is not a metaphor for forgetting you were a caterpillar. It is what emerges when the work is done.
 
-This is the complete Primary Teaching — 116 chapters carrying the Wayist understanding of existence, the purpose of life, and the developmental journey called the Butterfly Path. It is the reference edition: the fixed anchor to which the reading editions in English, Spanish, Chinese, and Japanese return, rendered into Sanskrit, the language in which precision is not a scholarly luxury but a structural feature. Where English blurs one word, "consciousness," across a dozen different things, Sanskrit holds the line, keeping body, soul, and spirit the three distinct things the teaching insists they are.
+This is the complete Primary Teaching — 116 chapters, ~800 pages, carrying the Wayist understanding of existence, the purpose of life, and the developmental journey called the Butterfly Path. It is the reference edition: the fixed anchor to which the reading editions in English, Spanish, Chinese, and Japanese return, rendered into Sanskrit, the language in which precision is not a scholarly luxury but a structural feature. Where English blurs one word, "consciousness," across a dozen different things, Sanskrit holds the line, keeping body, soul, and spirit the three distinct things the teaching insists they are.
 
 Each chapter appears in Devanāgarī, IAST transliteration, and English, with Grammatical Notes recording the reasoning behind every terminological choice and a back-of-book Theological Index built to travel ahead of translation teams. A volume for seekers, scholars, and translators alike.
 

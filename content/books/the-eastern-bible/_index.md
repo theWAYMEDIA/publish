@@ -18,3 +18,5 @@ Jean du Plessis provides an extensive introduction to 1st century Wayism. This e
 Although the original Church of the East was later taken over by Christians who burned the "eastern bible" and converted remaining devotees, Wayism continued to exist in the region. The movement, which does not require temples or formal churches, even survived the Islamic expansion six centuries later.
 
 An earlier hardcover edition was produced for years by St. Origen's, an African monastery, until the late 1980s. This 2012 Edition is a paperback reproduction of the old English-language version.
+
+Copyright: Ancient Church of the East
