@@ -1,5 +1,6 @@
 ---
 title: "Salvar Dàosenglu"
+aliases: ["/salvar-daosenghlu/"]
 bio: "The collective voice of Wayist monks spanning continents and cultures—from India, China, Western Europe, Canada, and the USA—dedicated to restoring Primary Teaching during the present renewal. This collaborative authorship represents lifetimes of advanced training in Wayism, Buddhism, Christian theology, and world mysticism."
 specialties: ["Ancient Text Restoration", "Cross-Cultural Translation", "Spiritual Authority", "Teaching Preservation"]
 books: ["theWAY Primary Teaching", "theWAY of The Authentia", "Child of Enki, you are in EnLil", "theWAY Eastern Bible", "theWAY of Divine Taras", "theWAY of the Soul Mirror", "theWAY of the Heart Sutra"]

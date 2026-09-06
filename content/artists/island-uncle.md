@@ -1,5 +1,6 @@
 ---
 title: "Island Uncle"
+aliases: ["/island-uncle-profile25/"]
 tagline: "Don't marry the hurricane. Fall in love with character, not what the body do."
 genre: "Reggae / World — Children's Music and Adult Devotional"
 image: "/images/artists/island-uncle-profile-photo.jpg"
