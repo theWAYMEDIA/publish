@@ -28,9 +28,14 @@
       <p class="song-album-info">From the album <strong>{{ .Params.album }}</strong>{{ with .Params.track }} — track {{ . }}{{ end }}</p>
       {{ end }}
 
-      {{ if .Params.release_link }}
+      {{ if or .Params.release_link .Params.leadsheet }}
       <div class="retailer-buttons">
+        {{ if .Params.release_link }}
         <a class="btn-retailer" href="{{ .Params.release_link }}" target="_blank" rel="noopener noreferrer">Listen — Distributor Links</a>
+        {{ end }}
+        {{ if .Params.leadsheet }}
+        <a class="btn-leadsheet" href="{{ .Params.leadsheet | relURL }}" target="_blank" rel="noopener noreferrer">Lead Sheet (PDF)</a>
+        {{ end }}
       </div>
       {{ end }}
     </div>

@@ -10,6 +10,7 @@ album: "Self"
 album_slug: "self"
 track: 6
 ai_disclosure: "Human creativity created lyrics and melodies, sound software AI assisted (Suno, DAW, Audacity plugins, online Mastering, STEM manipulation, etc.)"
+leadsheet: "/leadsheets/sopkombuis.pdf"
 weight: 93
 ---
 
