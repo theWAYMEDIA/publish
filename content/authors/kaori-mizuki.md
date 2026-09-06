@@ -1,5 +1,6 @@
 ---
 title: "Kaori Mizuki"
+aliases: ["/kaori-mizuki/"]
 bio: "Fish market vendor and Wayist teacher whose forty years of pre-dawn market work in Kamakura became a sustained study in what Wayism calls udbhu-kanti — finding divine truth in exactly what is in front of you."
 specialties: ["Udbhu-Kanti Living", "Commentary on Mari of Magadha", "Finding the Sacred in Ordinary Work", "Practical Wayist Teaching"]
 books: ["Mystic Mother of theWAY: Curated collection of the poems of Mari of Magadha", "The Fishmonger's Commentary on the Teaching of theWAY", "Market Meditations: Finding Truth in Ordinary Things", "Finding Heaven in Fish Guts: Celebrating the Humbling Privilege of Awareness"]

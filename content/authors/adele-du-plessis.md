@@ -1,5 +1,6 @@
 ---
 title: "Adéle du Plessis"
+aliases: ["/adele-du-plessis/"]
 bio: "An intuitive healer-teacher who discovered divine presence in life's most challenging moments, from Johannesburg shelters to Indian slums. Her collaborative works blend energy healing wisdom with everyday accessibility, demonstrating how authentic spirituality thrives through simple human connection and transformative meditation practices."
 specialties: ["Karman Active Meditation", "Pneumatherapy Energy Healing", "Practical Spirituality", "Cross-Cultural Wisdom Integration"]
 books: ["theWAY of Karman Meditation", "theWAY to Get a Life", "From Indian Brothels to Divine Guide", "theWAY of Avalokane"]

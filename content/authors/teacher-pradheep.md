@@ -1,5 +1,6 @@
 ---
 title: "Teacher +Pradeep"
+aliases: ["/teacher-pradheep/"]
 bio: "A distinguished scholar of Eastern Christianity and Wayism who dedicated his life to preserving and translating sacred texts. Born Pradeep Panicker in Kerala, India, he became known for his meticulous scholarship, serving on the Eastern Bible translation team and as a key member of the Salvar Dàosenglu editorial collective."
 specialties: ["Sacred Text Translation", "Eastern Christianity Scholarship", "Wayist Text Preservation", "Contemplative Curation"]
 books: ["Words of Fire and Light: The Essential Teachings of Beloved +Yusa"]

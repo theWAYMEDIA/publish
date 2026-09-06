@@ -1,5 +1,6 @@
 ---
 title: "High Mountain Story Uncle"
+aliases: ["/high-mountain-story-uncle/"]
 image: "/images/authors/high-mountain-story-uncle-profile-photo.jpg"
 bio: "Storyteller from the magical village of Nihnuta, where whimsical neighbors — human, animal, and otherwise — carry wisdom worth chewing on slowly."
 ---
