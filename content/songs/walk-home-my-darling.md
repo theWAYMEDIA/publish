@@ -130,6 +130,6 @@ The song's last sound is breathing, then peace. Not silence as absence — peace
 
 ---
 
-*Lyrics by Claudette Sky. © 2026 elCamino de Caminismo A.C., Mexico. All rights reserved.*
+*Lyrics by Claudette Sky. © 2026 El Camino de Caminismo Universal, Asociación Civil ("Caminismo A.C."), Mexico. All rights reserved.*
 
 *Music production © 2026 theWAY Media.*
