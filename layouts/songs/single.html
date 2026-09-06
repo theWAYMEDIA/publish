@@ -24,6 +24,10 @@
       </p>
       {{ end }}
 
+      {{ if .Params.album }}
+      <p class="song-album-info">From the album <strong>{{ .Params.album }}</strong>{{ with .Params.track }} — track {{ . }}{{ end }}</p>
+      {{ end }}
+
       {{ if .Params.release_link }}
       <div class="retailer-buttons">
         <a class="btn-retailer" href="{{ .Params.release_link }}" target="_blank" rel="noopener noreferrer">Listen — Distributor Links</a>
@@ -35,6 +39,10 @@
   <div class="post-content">
     {{ .Content }}
   </div>
+
+  {{ if .Params.ai_disclosure }}
+  <p class="song-disclosure">{{ .Params.ai_disclosure }}</p>
+  {{ end }}
 
   <p class="back-nav"><a href="{{ "songs/" | relURL }}">← Back to Songs</a></p>
 </article>

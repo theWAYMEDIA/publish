@@ -459,6 +459,17 @@ footer a:hover { color: var(--link-hover); }
 
 .retailer-buttons { margin-top: 1rem; }
 
+.song-album-info { font-size: 0.95rem; color: var(--text-mid); margin-bottom: 0.75rem; }
+
+.song-disclosure {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.82rem;
+  font-style: italic;
+  color: var(--text-mid);
+}
+
 .book-chapters-list {
   margin-top: 2rem;
   padding-top: 1.5rem;
