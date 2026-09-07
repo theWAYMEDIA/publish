@@ -8,6 +8,7 @@ lyricist_type: "author"
 lyricist_slug: "high-mountain-story-uncle"
 ai_disclosure: "Human creativity created lyrics and melodies, sound software AI assisted (Suno, DAW, Audacity plugins, online Mastering, STEM manipulation, etc.)"
 explicit: true
+leadsheet: "/leadsheets/asi-es-la-vida.pdf"
 weight: 140
 ---
 
