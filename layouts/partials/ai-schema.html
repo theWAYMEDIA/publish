@@ -4,8 +4,16 @@
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "theWAY Media",
+  "alternateName": "theWAY MEDIA",
   "url": "https://wayism.net",
-  "description": "{{ .Site.Params.description }}"
+  "logo": "{{ "/images/theway-media-logo.png" | absURL }}",
+  "description": "{{ .Site.Params.description }}",
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "El Camino de Caminismo Universal, Asociación Civil",
+    "alternateName": "Caminismo A.C.",
+    "url": "https://caminismo.org"
+  }
 }
 </script>
 {{ else if eq .Section "books" }}
