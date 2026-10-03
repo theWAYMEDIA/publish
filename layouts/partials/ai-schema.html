@@ -17,15 +17,30 @@
 }
 </script>
 {{ else if eq .Section "books" }}
-{{ if .IsPage }}
+{{ if .Params.authors }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Book",
-  "name": {{ .Title | jsonify }},
-  "author": [{{ range $i, $a := .Params.authors }}{{ if $i }},{{ end }}{ "@type": "Person", "name": {{ $a | jsonify }} }{{ end }}],
-  {{ with .Params.isbn_paperback }}"isbn": {{ . | jsonify }},{{ end }}
-  "description": {{ .Summary | plainify | jsonify }}
+  "name": {{ .Title }},
+  "author": [{{ range $i, $a := .Params.authors }}{{ if $i }},{{ end }}{ "@type": "Person", "name": {{ $a }} }{{ end }}],
+  {{ with .Params.isbn_paperback }}"isbn": {{ . }},{{ end }}
+  "publisher": { "@type": "Organization", "name": "theWAY Media", "url": "https://wayism.net" },
+  "description": {{ .Summary | plainify }}
+}
+</script>
+{{ end }}
+{{ else if eq .Section "songs" }}
+{{ if .Params.artist }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MusicRecording",
+  "name": {{ .Title }},
+  "byArtist": { "@type": "MusicGroup", "name": {{ .Params.artist }} },
+  {{ with .Params.lyricist }}"lyricist": { "@type": "Person", "name": {{ . }} },{{ end }}
+  {{ with .Params.album }}"inAlbum": { "@type": "MusicAlbum", "name": {{ . }} },{{ end }}
+  "publisher": { "@type": "Organization", "name": "theWAY Media", "url": "https://wayism.net" }
 }
 </script>
 {{ end }}

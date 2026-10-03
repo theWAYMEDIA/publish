@@ -3,12 +3,14 @@ title: "About"
 description: "About theWAY Media"
 ---
 
-theWAY Media publishes books on Wayism and related teachings — from core teaching texts to
-biography, children's stories, and historical works — bringing together authors and teachers
-from the Wayist community.
+theWAY Media publishes books and music on Wayism and related teachings — from core teaching
+texts to biography, children's stories, and historical works, alongside songs carrying Wayist
+teaching into sound — bringing together authors, teachers, and artists from the Wayist
+community. The catalog runs to nearly eighty book titles and well over 150 songs.
 
 Our books are available in paperback, ebook, and audiobook formats through major retailers.
-Most titles are available for translation.
+Most titles are available for translation. Our music is distributed through Spotify, Apple
+Music, Amazon Music, and other major platforms.
 
 For submissions, rights inquiries, or general questions, reach out via the online community:
 [wayist.life](https://wayist.life).
